@@ -26,7 +26,7 @@ const HomeUser = () => {
                     <Route exact={true} path="/about">
                         <About />
                     </Route>
-                    <Route exact={true} path="/posts">
+                    <Route exact={true} path="/posts/:postId">
                         <Posts />
                     </Route>
                 </Switch>
