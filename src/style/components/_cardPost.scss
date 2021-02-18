@@ -1,0 +1,38 @@
+.card-posts {
+
+    box-shadow: inset 4px 4px 5px rgba(4, 14, 148, 0.2),
+                inset -4px -4px 5px rgba(80, 100, 155, 0.1),
+                10px 40px 40px rgba(0,0,0,0.1);
+
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 17px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h3{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    p{
+        margin: 10px 0;
+    }
+
+    &__link{
+        font-weight: bold;
+        border: 1px solid $button-color;
+        border-radius: 7px;
+        padding: 10px 10px;
+    }
+
+    &__link:hover{
+        background-color: $button-color;
+    }
+}

@@ -7,6 +7,7 @@ import {
   } from "react-router-dom";
 import { About } from '../components/About';
 import { Users } from '../components/Users';
+import { Posts } from '../components/Posts';
 
 const HomeUser = () => {
 
@@ -24,6 +25,9 @@ const HomeUser = () => {
                     </Route>
                     <Route exact={true} path="/about">
                         <About />
+                    </Route>
+                    <Route exact={true} path="/posts">
+                        <Posts />
                     </Route>
                 </Switch>
             </div>

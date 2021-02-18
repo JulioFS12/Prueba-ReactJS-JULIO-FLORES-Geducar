@@ -10,6 +10,10 @@
     justify-content: space-between;
     padding: 0 50px;
 
+    img {
+        width: 150px;
+    }
+
     button {
         border: none;
         height: 50px;
@@ -28,6 +32,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    img {
+        width: 150px;
+    }
 }
 
 
