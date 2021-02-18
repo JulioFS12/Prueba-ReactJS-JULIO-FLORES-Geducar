@@ -7,4 +7,11 @@ export const types = {
 
     getPosts: '[users] Get Posts',
 
+    getComments: '[users] Get Comments',
+
+    setIdUser: '[PostData] Set Id User',
+    setIdPost: '[PostData] Set Id Post',
+    setUsers: '[PostData] Set Users',
+    setPosts: '[PostData] Set Posts',
+
 }

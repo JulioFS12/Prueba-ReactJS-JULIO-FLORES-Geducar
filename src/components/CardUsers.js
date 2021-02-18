@@ -8,7 +8,7 @@ export const CardUsers = ({user}) => {
     return (
         <div className="shadow-1">
             <div className="card-user">
-                <h3>TITLE</h3>
+                <h3>{`USER ${id}`}</h3>
                 <hr/>
                 <p>{`Name: ${name}`}</p>
                 <p>{`User Name: ${username}`}</p>

@@ -1,0 +1,38 @@
+.all-users{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    &__back-image{
+        
+    }
+    h2{
+        font-size: 70px;
+    }
+
+    img{
+        width: 320px;
+    }
+
+    @media (max-width: 800px){
+        h2{
+            font-size: 40px;
+        }
+    
+        img{
+            width: 220px;
+        }
+    }
+
+    @media (max-width: 500px){
+        h2{
+            font-size: 20px;
+        }
+    
+        img{
+            width: 120px;
+        }
+    }
+}

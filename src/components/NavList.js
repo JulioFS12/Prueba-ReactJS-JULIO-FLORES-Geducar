@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaAdn } from "react-icons/fa";
+import { menu } from '../assets/images';
 import { Link } from 'react-router-dom';
 import { logo } from '../assets/images';
 export default function NavList() {
@@ -19,7 +19,7 @@ export default function NavList() {
             <nav className="nav-container-2 back-nav">
                 <img className="back-nav" src={`${logo}`}/>
                 <button className="back-nav" onClick={ handleClick }>
-                    <img className="back-nav" src={ `${FaAdn}` }/>
+                    <img className="back-nav" src={ `${menu}` }/>
                 </button>
             </nav>
         </>

@@ -1,19 +1,18 @@
 import { types } from '../types/types';
 
 const initialState = {
-    users: [],
+    comments: [],
     getting: true
 };
 
-
-export const usersReducer = ( state = initialState, action ) => {
+export const commentsReducer = ( state = initialState, action ) => {
 
     switch ( action.type ) {
 
-        case types.getUsers:
+        case types.getComments:
             return {
                 ...state,
-                users: [ ...action.payload ],
+                comments: [ ...action.payload ],
                 getting: false,
             }
 

@@ -8,6 +8,7 @@ import {
 import { About } from '../components/About';
 import { Users } from '../components/Users';
 import { Posts } from '../components/Posts';
+import { Comments } from '../components/Comments';
 
 const HomeUser = () => {
 
@@ -26,8 +27,11 @@ const HomeUser = () => {
                     <Route exact={true} path="/about">
                         <About />
                     </Route>
-                    <Route exact={true} path="/posts/:postId">
+                    <Route exact={true} path="/posts/:postUserId">
                         <Posts />
+                    </Route>
+                    <Route exact={true} path="/comments/:commentsPostId">
+                        <Comments />
                     </Route>
                 </Switch>
             </div>
