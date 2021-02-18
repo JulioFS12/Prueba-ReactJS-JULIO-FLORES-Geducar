@@ -1,18 +1,15 @@
 const urlBase = process.env.REACT_APP_API_URL;
 
-export const fetchApi = ( endpoint, data, method = 'GET' ) => {
+export const fetchApi = ( endpoint, modifier, value ) => {
 
-    const url = `${urlBase }${ endpoint }`;
 
-    if ( method === 'GET' ) {
+    if ( endpoint === 'users' ) {
+        const url = `${urlBase }${ endpoint }`;
         return fetch( url );
-    } else {
-        return fetch( url, {
-            method,
-            headers: {
-                'Content-type': 'application/json'
-            },
-            body: JSON.stringify( data )
-        });
+    } 
+    
+    if ( endpoint === 'posts'){
+        const url = `${urlBase}${ endpoint }?${modifier}=${value}`;
+        return fetch( url );
     }
 }

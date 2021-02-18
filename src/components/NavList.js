@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { logo } from '../assets/images';
 export default function NavList() {
 
-
     const handleClick = (e) => {
         console.log(e);
     }

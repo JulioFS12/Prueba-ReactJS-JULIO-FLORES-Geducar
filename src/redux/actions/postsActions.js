@@ -1,10 +1,10 @@
 import { fetchApi } from '../../database/fetch';
 import { types } from '../types/types';
 
-export const getPost = () => {
+export const getPost = (id) => {
     return (dispatch) => {
 
-        fetchApi('posts')
+        fetchApi('posts', 'userId', id)
             .then( res => res.json())
             .then( (res) => {
                 const posts = [
