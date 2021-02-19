@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/geducar-julio-flores-test/static/css/main.58e13966.chunk.css",
-    "main.js": "/geducar-julio-flores-test/static/js/main.e55e7e66.chunk.js",
-    "main.js.map": "/geducar-julio-flores-test/static/js/main.e55e7e66.chunk.js.map",
+    "main.js": "/geducar-julio-flores-test/static/js/main.b91f285c.chunk.js",
+    "main.js.map": "/geducar-julio-flores-test/static/js/main.b91f285c.chunk.js.map",
     "runtime-main.js": "/geducar-julio-flores-test/static/js/runtime-main.9cfc92a5.js",
     "runtime-main.js.map": "/geducar-julio-flores-test/static/js/runtime-main.9cfc92a5.js.map",
     "static/js/2.e96d9c4e.chunk.js": "/geducar-julio-flores-test/static/js/2.e96d9c4e.chunk.js",
@@ -12,12 +12,13 @@
     "index.html": "/geducar-julio-flores-test/index.html",
     "static/css/main.58e13966.chunk.css.map": "/geducar-julio-flores-test/static/css/main.58e13966.chunk.css.map",
     "static/js/2.e96d9c4e.chunk.js.LICENSE.txt": "/geducar-julio-flores-test/static/js/2.e96d9c4e.chunk.js.LICENSE.txt",
+    "static/media/note.6f06c9fc.png": "/geducar-julio-flores-test/static/media/note.6f06c9fc.png",
     "static/media/profile.1677bd46.png": "/geducar-julio-flores-test/static/media/profile.1677bd46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9cfc92a5.js",
     "static/js/2.e96d9c4e.chunk.js",
     "static/css/main.58e13966.chunk.css",
-    "static/js/main.e55e7e66.chunk.js"
+    "static/js/main.b91f285c.chunk.js"
   ]
 }
