@@ -10,7 +10,7 @@ export const CardPosts = ({post}) => {
             <div className="card-posts">
                 <h3>{`${title}`}</h3>
                 <p>{`${body}`}</p>  
-                <Link className="card-posts__link" to={`/geducar-julio-flores-test/comments/${id}`}>Comments...! </Link>      
+                <Link className="card-posts__link" to={`/geducar/comments/${id}`}>Comments...! </Link>      
             </div>
         </div>
     )

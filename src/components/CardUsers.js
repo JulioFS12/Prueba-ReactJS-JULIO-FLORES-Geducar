@@ -16,7 +16,7 @@ export const CardUsers = ({user}) => {
                 <p>{`Address: ${address.street}`}</p>
                 <p>{`Phone: ${phone}`}</p>
                 <p>{`Company: ${company.name}`}</p>   
-                <Link className="card-user__link" to={`/geducar-julio-flores-test/posts/${ id }`}>See Posts...! </Link>      
+                <Link className="card-user__link" to={`/geducar/posts/${ id }`}>See Posts...! </Link>      
             </div>
         </div>
     )

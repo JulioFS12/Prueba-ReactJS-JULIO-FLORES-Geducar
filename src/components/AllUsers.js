@@ -5,7 +5,7 @@ import { profile, back } from '../assets/images';
 export const AllUsers = () => {
     return (
         <div className="all-users">
-            <Link to="/">
+            <Link to={`/geducar`}>
                 <img style={{ width: '40px' }} src={`${back}`} />
             </Link>
             <img src={`${profile}`} />

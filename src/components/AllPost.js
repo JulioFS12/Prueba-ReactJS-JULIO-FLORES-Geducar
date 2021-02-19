@@ -6,7 +6,7 @@ export const AllPost = ({ idUser }) => {
 
     return (
         <div className="all-users">
-            <Link to="/users">
+            <Link to={`/geducar/users`}>
                 <img style={{ width: '40px' }} src={`${back}`} />
             </Link>
             <img src={`${commet}`} />

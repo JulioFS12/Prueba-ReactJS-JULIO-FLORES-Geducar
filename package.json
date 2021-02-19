@@ -1,5 +1,5 @@
 {
-  "homepage": "https://JulioFS12.github.io/geducar-julio-flores-test",
+  "homepage": "https://JulioFS12.github.io/geducar",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -20,11 +20,11 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start .env.development",
+    "build": "react-scripts build .env.produccion",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build .env.produccion",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
