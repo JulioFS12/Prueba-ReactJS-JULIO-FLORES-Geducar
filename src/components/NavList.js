@@ -33,9 +33,9 @@ export default function NavList() {
         <>
             <nav className="nav-container back-nav">
                 <img className="back-nav" src={`${logo}`}/>
-                <Link to={`/geducar/`} className="back-nav">Home</Link>
-                <Link to={`/geducar/users`} className="back-nav">Users</Link>
-                <Link to={`/geducar/about`} className="back-nav">About</Link>
+                <Link to={`/geducar-julio-flores-test`} className="back-nav">Home</Link>
+                <Link to={`/geducar-julio-flores-test/users`} className="back-nav">Users</Link>
+                <Link to={`/geducar-julio-flores-test/about`} className="back-nav">About</Link>
             </nav>
             <nav className="nav-container-2 back-nav">
                 <img className="back-nav" src={`${logo}`}/>
@@ -44,9 +44,9 @@ export default function NavList() {
                 </button>
             </nav>
             <nav className={state}>
-                <Link to={`/geducar/`} >Home</Link>
-                <Link to={`/geducar/users`} >Users</Link>
-                <Link to={`/geducar/about`} >About</Link>
+                <Link to={`/geducar-julio-flores-test`} >Home</Link>
+                <Link to={`/geducar-julio-flores-test/users`} >Users</Link>
+                <Link to={`/geducar-julio-flores-test/about`} >About</Link>
             </nav>
         </>
     )

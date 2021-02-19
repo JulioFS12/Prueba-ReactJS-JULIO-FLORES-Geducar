@@ -18,19 +18,19 @@ const HomeUser = () => {
             <NavList />
             <div>
                 <Switch>
-                    <Route exact={true} path={`/geducar/`}>
+                    <Route exact={true} path={`/geducar-julio-flores-test`}>
                         <Welcome />
                     </Route>
-                    <Route exact={true} path={`/geducar/users`}>
+                    <Route exact={true} path={`/geducar-julio-flores-test/users`}>
                         <Users />
                     </Route>
-                    <Route exact={true} path={`/geducar/about`}>
+                    <Route exact={true} path={`/geducar-julio-flores-test/about`}>
                         <About />
                     </Route>
-                    <Route exact={true} path={`/geducar/posts/:postUserId`}>
+                    <Route exact={true} path={`/geducar-julio-flores-test/posts/:postUserId`}>
                         <Posts />
                     </Route>
-                    <Route exact={true} path={`/geducar/comments/:commentsPostId`}>
+                    <Route exact={true} path={`/geducar-julio-flores-test/comments/:commentsPostId`}>
                         <Comments />
                     </Route>
                 </Switch>
