@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is an application in react that connects to the API https://jsonplaceholder.typicode.com/ where it accesses the server data through three endpoints. It is a complete exercise where all basis of react hook, react router, javaScript and redux are put into practice as a test of knowledge about the front end library, the repository is hosted at https://github.com/JulioFS12/Prueba- ReactJS-JULIO-FLORES-Geducar.
 
+## How use?
+
+1. ``` git clone https://github.com/JulioFS12/Prueba-ReactJS-JULIO-FLORES-Geducar.git```
+2. ``` npm install ``` It's recommend using sass ```version V-4.14.1```.
+3. ``` npm start ```.
+
 ## Available Scripts
 
 In the project directory, you can run:
