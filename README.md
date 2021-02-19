@@ -9,8 +9,8 @@ This is an application in react that connects to the API https://jsonplaceholder
 
 1. ```git clone https://github.com/JulioFS12/geducar-julio-flores-test.git```.
 2. ``` npm install ``` It is recommended to use sass version 4.14.1.
-3. ``` npm predeploy ``` to generate build.
-4. ``` npm predeploy ``` to host at github pages.
+3. ``` npm run predeploy ``` to generate build.
+4. ``` npm run predeploy ``` to host at github pages.
 
 ## Contributions
 Currently the project is not accepting contributions (pull requests, or else) However as this is in its early stages, you are welcome to leave feedback on its current design.
