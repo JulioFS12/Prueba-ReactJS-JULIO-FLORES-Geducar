@@ -15,7 +15,7 @@ export const Welcome = () => {
                     <p>Welcome to</p>
                     <p>Geducar React App</p>
                 </div>
-                <img src={`${welcome}`} />
+                <img src={`${welcome}`} alt="welcome"/>
         </section>
     )
 }

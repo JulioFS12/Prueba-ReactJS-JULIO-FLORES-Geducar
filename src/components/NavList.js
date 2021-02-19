@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { logo } from '../assets/images';
 import { modalShow, modalHide } from '../redux/actions/iuActions';
 import { useDispatch, useSelector } from 'react-redux';
-const hostServer = process.env.HOST_SERVER;
 
 export default function NavList() {
 
@@ -32,15 +31,15 @@ export default function NavList() {
     return (
         <>
             <nav className="nav-container back-nav">
-                <img className="back-nav" src={`${logo}`}/>
+                <img className="back-nav" src={`${logo}`} alt="logo"/>
                 <Link to={`/geducar-julio-flores-test`} className="back-nav">Home</Link>
                 <Link to={`/geducar-julio-flores-test/users`} className="back-nav">Users</Link>
                 <Link to={`/geducar-julio-flores-test/about`} className="back-nav">About</Link>
             </nav>
             <nav className="nav-container-2 back-nav">
-                <img className="back-nav" src={`${logo}`}/>
+                <img className="back-nav" src={`${logo}`} alt="logo"/>
                 <button className="back-nav" onClick={ handleClick }>
-                    <img className="back-nav" src={ `${menu}` }/>
+                    <img className="back-nav" src={ `${menu}` } alt="menu"/>
                 </button>
             </nav>
             <nav className={state}>

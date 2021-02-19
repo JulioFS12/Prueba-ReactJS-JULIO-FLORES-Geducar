@@ -9,7 +9,7 @@ export const AllPost = ({ idUser }) => {
             <Link to={`/geducar-julio-flores-test/users`}>
                 <img style={{ width: '40px' }} src={`${back}`} />
             </Link>
-            <img src={`${commet}`} />
+            <img src={`${commet}`} alt="post"/>
             <h2>{`Posts of user ${idUser}`}</h2>
         </div>
     )

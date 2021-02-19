@@ -8,7 +8,7 @@ export const AllUsers = () => {
             <Link to={`/geducar-julio-flores-test`}>
                 <img style={{ width: '40px' }} src={`${back}`} />
             </Link>
-            <img src={`${profile}`} />
+            <img src={`${profile}`} alt="users"/>
             <h2>All users from API</h2>
         </div>
     )

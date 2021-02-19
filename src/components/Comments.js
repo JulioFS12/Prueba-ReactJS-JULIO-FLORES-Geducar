@@ -26,7 +26,7 @@ export const Comments = () => {
         <section className="complete-container">
             <div className="complete-container__card-complete">
             <Link to={`/geducar-julio-flores-test/users`}>
-                <img style={{ width: '40px' }} src={`${back}`} />
+                <img style={{ width: '40px' }} src={`${back}`} alt="back" />
             </Link>
             <h1>{`Comments of post ${commentsPostId}`}</h1>
             {
