@@ -1,8 +1,13 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { welcome } from '../assets/images';
+import { modalSet } from '../helpers/modalSet';
 
 
-export const Welcome = (props) => {
+export const Welcome = () => {
+
+    const dispatch = useDispatch();
+    modalSet( dispatch );
 
     return (
         <section className="welcome-container ">

@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 10px;
 
     img {
         width: 150px;
@@ -49,4 +49,24 @@
     .nav-container-2{
         display: none;
     }
+}
+
+.nav-hide{
+    display: none;
+}
+
+.nav-show{
+    position: absolute;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: lighter;
 }

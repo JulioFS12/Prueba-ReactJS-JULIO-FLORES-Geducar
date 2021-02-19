@@ -4,6 +4,7 @@ import { CardUsers } from './CardUsers';
 import { getUsers } from '../redux/actions/usersActions';
 import { Wait } from '../components/Wait';
 import { AllUsers } from './AllUsers';
+import { modalSet } from '../helpers/modalSet';
 
 export const Users = () => {
 
@@ -18,6 +19,8 @@ export const Users = () => {
     if (getting) {
         return <Wait />
     }
+
+    modalSet( dispatch );
 
     return (
         <>

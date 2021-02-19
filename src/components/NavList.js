@@ -2,10 +2,30 @@ import React from 'react';
 import { menu } from '../assets/images';
 import { Link } from 'react-router-dom';
 import { logo } from '../assets/images';
+import { modalShow, modalHide } from '../redux/actions/iuActions';
+import { useDispatch, useSelector } from 'react-redux';
+
 export default function NavList() {
 
+    const dispatch = useDispatch();
+    
+
+    const { modalOpen } = useSelector(selection => selection.ui);
+
     const handleClick = (e) => {
-        console.log(e);
+        if(modalOpen){
+            dispatch( modalHide() );
+        }else{
+            dispatch( modalShow() );
+        }
+    }
+
+    var state = '';
+
+    if(modalOpen){
+        state = 'nav-show'
+    }else{
+        state = 'nav-hide'
     }
 
     return (
@@ -22,8 +42,12 @@ export default function NavList() {
                     <img className="back-nav" src={ `${menu}` }/>
                 </button>
             </nav>
+            <nav className={state}>
+                <Link to="/">Home</Link>
+                <Link to="/users">Users</Link>
+                <Link to="/about">About</Link>
+            </nav>
         </>
-
     )
 
 }

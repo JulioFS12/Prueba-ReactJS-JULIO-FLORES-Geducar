@@ -13,7 +13,6 @@ export const getPost = (postUserId) => {
                 ]
                 
                 dispatch( savePosts(posts) );
-                dispatch( setIdUser( postUserId ) );
 
             }).catch( res => Swal.fire('Oops...', 'Server no working, please wait 5s!', 'error'))
     }
@@ -22,9 +21,4 @@ export const getPost = (postUserId) => {
 const savePosts = (posts) => ({
     type: types.getPosts,
     payload: posts
-});
-
-const setIdUser = (idUser) => ({
-    type: types.setIdUser,
-    payload: idUser,
 });

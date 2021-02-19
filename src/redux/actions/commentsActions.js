@@ -13,7 +13,6 @@ export const getComments = (postId) => {
                 ]
                 
                 dispatch( savePosts( comments ) );
-                dispatch( setIdPost( postId ) );
 
             }).catch(res => Swal.fire('Oops...', 'Server no working, please wait 5s!', 'error'))
     }
@@ -22,9 +21,4 @@ export const getComments = (postId) => {
 const savePosts = (comments) => ({
     type: types.getComments,
     payload: comments
-});
-
-const setIdPost = (idPost) => ({
-    type: types.setIdPost,
-    payload: idPost,
 });

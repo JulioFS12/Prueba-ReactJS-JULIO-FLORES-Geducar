@@ -1,7 +1,10 @@
 import React from 'react';
+import { wait } from '../assets/images';
 
 export const Wait = () => {
    return(
-       <h1>WAIT...!!</h1>
+       <section className="wait-container">
+            <img src={`${wait}`}/>
+       </section>
    )
 }

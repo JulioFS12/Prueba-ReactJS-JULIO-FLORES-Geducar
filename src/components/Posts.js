@@ -6,9 +6,11 @@ import { AllPost } from './AllPost';
 import { CardPosts } from './CardPosts';
 import { Wait } from './Wait';
 
+
 export const Posts = () => {
 
     const dispatch = useDispatch();
+
     const { postUserId } = useParams();
 
     useEffect(() => {
@@ -20,6 +22,7 @@ export const Posts = () => {
     if (getting) {
         return <Wait />
     }
+
 
     return (
         <>

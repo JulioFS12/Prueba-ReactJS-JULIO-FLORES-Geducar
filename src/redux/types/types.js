@@ -9,9 +9,4 @@ export const types = {
 
     getComments: '[users] Get Comments',
 
-    setIdUser: '[PostData] Set Id User',
-    setIdPost: '[PostData] Set Id Post',
-    setUsers: '[PostData] Set Users',
-    setPosts: '[PostData] Set Posts',
-
 }
